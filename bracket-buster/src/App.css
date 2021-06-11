@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 .App {
   text-align: center;
+  /* background-color: grey; */
+  height: 100vw;
 }
 
 .navbar {
   display: inline-flex; 
   height: 150px;
-  width: 100vw;
+  width: 95vw;
   justify-content: space-around;
   background-color: aliceblue;
+  border-radius: 20px;
+  margin-top: 10px;
 }
 
 .logo {
@@ -20,93 +26,200 @@
 .buttonWrapper {
   height: 100px;
   width: 100px;
-  border: 2px solid green;
   align-self: center;
 }
 
 .signup {
+  height: 40px;
+  width: 80px;
+  background-color: #0084a4;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin:10px;
+  border: 2px solid grey;
+}
 
+.signup:hover{
+  background-color: #004c5f;
 }
 
 .login {
-
+  height: 40px;
+  width: 80px;
+  background-color: #0084a4;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  /* margin: 10px; */
+  border: 2px solid grey;
 }
+
+  .login:hover{
+    background-color: #004c5f;
+  }
 
 .description {
   display: inline-flex; 
-  height: 150px;
-  width: 500px;
-  border: 2px solid red;
+  /* height: 150px; */
+  width: fit-content;
+  /* margin: 20px; */
+  /* border: 2px solid red; */
   flex-direction: column;
+  margin: 10px;
+  background-color: #0084a4;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
 }
 
-/* .bracket {
-  display: flex;
+.flags {
+  /* position: absolute;
+  left: 40px;
+  top: 200px; */
+  display: inline-flex;
+  background-color: aliceblue;
+  border-radius: 40px;
+  margin-left: 20px;
+  height: 200px;
+  border: 2px solid grey;
+}
+
+.bracket {
+  /* margin-left: 10px;
+  position: absolute;
   border: 2px solid blue;
-  height: fit content;
-} */
+  height: 400px;
+  width: 1400px;
+  top: 550px; */
+  display: inline-flex;
+  /* justify-content: flex-end; */
+  /* border: 2px solid blue; */
+  height: 700px;
+  width: 1400px;
+}
 
 .ro16 {
   position: absolute;
   margin-left: 10px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   max-width: 200px;
 }
 
 .quarters {
   position: absolute;
-  left: 220px;
-  bottom: 275px;
-  border: 2px solid blue;
+  left: 250px;
+  top: 578px;
+  /* border: 2px solid blue; */
   max-width: 200px;
 }
 
 .semis {
   margin-left: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 200px;
   position: absolute;
-  left: 420px;
-  bottom: 320px;
+  left: 460px;
+  bottom: 40px;
 }
 
 .finals {
   margin-left: 10px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 200px;
   position: absolute;
-  left: 630px;
-  bottom: 350px;
+  left: 680px;
+  bottom: 90px;
+  padding: 10px;
+  background-color: #3c9980;
+  border-radius: 20px;
+
 }
 
 .game1 {
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
 }
 
 .game2 {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+
 }
 
 .game3 {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+
+
 }
 
 .game4 {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+
+
 }
 
 .game5 {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+
+
 }
 
 .game6 {
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+
 }
 
 .game7 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+
 }
 
 .game8 {
-  border: 2px solid turquoise;
+  /* border: 2px solid turquoise; */
+  margin: 10px;
+  padding: 10px;
+  background-color: #0084a4;
+  border-radius: 20px;
+}
+
+.trophy {
+  position: absolute;
+  height: 50%;
+  left: 1000px;
+  top: 550px;
+}
+
+
+.disclaimer {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 10px;
+  display: inline-flex;
+  
 }
