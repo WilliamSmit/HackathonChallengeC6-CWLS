@@ -79,7 +79,7 @@
   top: 200px; */
   display: inline-flex;
   background-color: aliceblue;
-  border-radius: 40px;
+  border-radius: 100px;
   margin-left: 20px;
   height: 200px;
   border: 2px solid grey;
@@ -115,10 +115,11 @@
 .quarters {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+
   /* border: 2px solid blue; */
   max-width: 200px;
-  margin: unset;
+  margin: 10px;
 }
 
 .semis {
@@ -127,14 +128,14 @@
   max-width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .finals {
   margin-left: 10px;
   /* border: 2px solid red; */
-  max-width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 60px;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -142,7 +143,7 @@
   align-self: center;
   padding: 10px;
   background-color: #3c9980;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
@@ -151,7 +152,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .game2 {
@@ -159,7 +160,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
@@ -168,7 +169,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 
 
 }
@@ -178,7 +179,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 
 
 }
@@ -188,7 +189,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 
 
 }
@@ -198,7 +199,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
@@ -207,7 +208,7 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 
 }
 
@@ -216,14 +217,15 @@
   margin: 10px;
   padding: 10px;
   background-color: #0084a4;
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 .trophy {
-  position: absolute;
-  height: 50%;
-  left: 1000px;
-  top: 550px;
+ height: 70%;
+position: absolute;
+right: 25px;
+top: 550px;
+
 }
 
 
