@@ -97,39 +97,49 @@
   /* border: 2px solid blue; */
   height: 700px;
   width: 1400px;
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 20px;
 }
 
 .ro16 {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
   /* border: 2px solid green; */
   max-width: 200px;
+  justify-content: center;
+
 }
 
 .quarters {
-  position: absolute;
-  left: 250px;
-  top: 578px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* border: 2px solid blue; */
   max-width: 200px;
+  margin: unset;
 }
 
 .semis {
   margin-left: 10px;
   /* border: 2px solid red; */
   max-width: 200px;
-  position: absolute;
-  left: 460px;
-  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .finals {
   margin-left: 10px;
   /* border: 2px solid red; */
   max-width: 200px;
-  position: absolute;
-  left: 680px;
-  bottom: 90px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
   padding: 10px;
   background-color: #3c9980;
   border-radius: 20px;
