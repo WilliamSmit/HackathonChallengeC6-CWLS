@@ -6,11 +6,11 @@
   display: inline-flex; 
   height: 150px;
   width: 100vw;
-  border: 2px solid red;
+  justify-content: space-around;
+  background-color: aliceblue;
 }
 
 .logo {
-  justify-content: center;
   height: 100px;
   width: 400px;
   border: 2px solid blue;
@@ -22,7 +22,6 @@
   width: 100px;
   border: 2px solid green;
   align-self: center;
-  flex-direction: column;
 }
 
 .signup {
@@ -41,4 +40,91 @@
   flex-direction: column;
 }
 
+/* .bracket {
+  display: flex;
+  border: 2px solid blue;
+  height: fit content;
+} */
 
+.ro16-left {
+  margin-left: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+  position: absolute;
+}
+
+.quarters-left {
+  margin-left: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+  position: absolute;
+  left: 200px;
+  bottom: 350px;
+}
+
+.quarters-right {
+  margin-left: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+  position: absolute;
+  right: 210px;
+  bottom: 350px;
+}
+
+.semis-left {
+  margin-left: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+  position: absolute;
+  left: 400px;
+  bottom: 380px;
+}
+
+.semis-right {
+  margin-left: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+  position: absolute;
+  right: 410px;
+  bottom: 380px;
+}
+
+.finals {
+  margin-left: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+  position: absolute;
+  left: 610px;
+  bottom: 380px;
+}
+
+.game1 {
+  border: 2px solid green;
+}
+
+.game2 {
+  border: 2px solid purple;
+}
+
+.game3 {
+  border: 2px solid orange;
+}
+
+.game4 {
+  border: 2px solid yellow;
+}
+
+.game5 {
+  border: 2px solid black;
+}
+
+.game6 {
+  border: 2px solid pink;
+}
+
+.ro16-right {
+  position: absolute;
+  right: 10px;
+  border: 2px solid red;
+  max-width: 200px;
+}
