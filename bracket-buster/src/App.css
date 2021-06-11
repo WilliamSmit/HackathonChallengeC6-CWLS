@@ -46,47 +46,28 @@
   height: fit content;
 } */
 
-.ro16-left {
-  margin-left: 10px;
-  border: 2px solid red;
-  max-width: 200px;
+.ro16 {
   position: absolute;
+  margin-left: 10px;
+  border: 2px solid green;
+  max-width: 200px;
 }
 
-.quarters-left {
-  margin-left: 10px;
-  border: 2px solid red;
-  max-width: 200px;
+.quarters {
   position: absolute;
-  left: 200px;
-  bottom: 350px;
+  left: 220px;
+  bottom: 275px;
+  border: 2px solid blue;
+  max-width: 200px;
 }
 
-.quarters-right {
+.semis {
   margin-left: 10px;
   border: 2px solid red;
   max-width: 200px;
   position: absolute;
-  right: 210px;
-  bottom: 350px;
-}
-
-.semis-left {
-  margin-left: 10px;
-  border: 2px solid red;
-  max-width: 200px;
-  position: absolute;
-  left: 400px;
-  bottom: 380px;
-}
-
-.semis-right {
-  margin-left: 10px;
-  border: 2px solid red;
-  max-width: 200px;
-  position: absolute;
-  right: 410px;
-  bottom: 380px;
+  left: 420px;
+  bottom: 320px;
 }
 
 .finals {
@@ -94,8 +75,8 @@
   border: 2px solid red;
   max-width: 200px;
   position: absolute;
-  left: 610px;
-  bottom: 380px;
+  left: 630px;
+  bottom: 350px;
 }
 
 .game1 {
@@ -122,9 +103,10 @@
   border: 2px solid pink;
 }
 
-.ro16-right {
-  position: absolute;
-  right: 10px;
-  border: 2px solid red;
-  max-width: 200px;
+.game7 {
+  border: 2px solid blue;
+}
+
+.game8 {
+  border: 2px solid turquoise;
 }
