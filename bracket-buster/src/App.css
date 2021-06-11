@@ -5,7 +5,40 @@
 .navbar {
   display: inline-flex; 
   height: 150px;
-  width: 500px;
+  width: 100vw;
   border: 2px solid red;
 }
+
+.logo {
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  border: 2px solid blue;
+  align-self: center;
+}
+
+.buttonWrapper {
+  height: 100px;
+  width: 100px;
+  border: 2px solid green;
+  align-self: center;
+  flex-direction: column;
+}
+
+.signup {
+
+}
+
+.login {
+
+}
+
+.description {
+  display: inline-flex; 
+  height: 150px;
+  width: 500px;
+  border: 2px solid red;
+  flex-direction: column;
+}
+
 
